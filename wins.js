@@ -1,4 +1,4 @@
-console.log('hi')
+response.addHeader("Access-Control-Allow-Origin", "*");
 
 d3.csv("https://github.com/ArtsyDM/Analytics/blob/master/WINS.csv", function(d) {
   return {
